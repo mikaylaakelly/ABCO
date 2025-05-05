@@ -1,0 +1,32 @@
+{
+    "name": "abco website",
+    "version": "1.0.0",
+    "description": "A Business website",
+    "main": "index.js",
+    "scripts": {
+      "test": "test",
+      "start": "node index",
+      "dev": "nodemon index",
+      "seed": "node utils/seed"
+    },
+    "repository": {
+      "type": "git",
+      "url": "abcomachining"
+    },
+    "keywords": [
+      "social",
+      "media",
+      "database",
+      "nosql",
+      "mongodb"
+    ],
+    "author": "Mikaylakelly",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^7.0.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.9"
+    }
+  }
